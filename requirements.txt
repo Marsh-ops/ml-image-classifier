@@ -1,0 +1,15 @@
+# ML libraries
+torch==2.1.2
+torchvision==0.16.2
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Web framework
+fastapi==0.109.0
+uvicorn[standard]==0.23.2
+
+# Utilities
+Pillow==10.0.0
+numpy==1.26.4
+
+# For file uploads
+python-multipart==0.0.20
