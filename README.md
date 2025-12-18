@@ -1,6 +1,40 @@
 CIFAR-10 Image Classifier API
 
-This project is a FastAPI-based API for classifying images using a CIFAR-10 trained PyTorch model. It is fully containerized with Docker, making it easy to run anywhere.
+This project is a dockerized FastAPI service that classifies images into CIFAR-10 categories using a PyTorch model. This project demonstrates packaging a machine learning model into a production-ready API, containerization with Docker, and handling cross-platform deployment.
+
+Within this README:
+
+FEATURES
+TECH STACK
+REQUIREMENTS
+BUILD AND RUN WITH DOCKER
+TESTING THE API
+KEY LEARNINGS AND SKILLS DEMONSTRATED
+NOTES
+
+-------------------------------------------------------------------------------
+
+Features
+
+Pre-trained CIFAR-10 image classifier using PyTorch.
+
+REST API for image classification using FastAPI.
+
+Dockerized for consistent cross-platform deployment.
+
+Handles image uploads via POST requests.
+
+Ready for extension or integration into larger ML systems.
+
+-------------------------------------------------------------------------------
+
+Tech Stack
+
+Programming Language: Python 3.10/3.11
+
+Frameworks & Libraries: PyTorch, FastAPI, Uvicorn, Pillow
+
+Tools: Docker, Linux containerization
 
 -------------------------------------------------------------------------------
 
@@ -58,7 +92,26 @@ Click Execute to see the predicted class.
 
 -------------------------------------------------------------------------------
 
+Key Learnings & Skills Demonstrated
+
+Packaging ML models into production-ready APIs with FastAPI.
+
+Containerization for reproducible deployment using Docker.
+
+Cross-platform development: Running a Linux-based Docker container on Windows.
+
+Dependency management: Handling Python version and library compatibility issues.
+
+API design & testing: Accepting file uploads and returning structured predictions.
+
+-------------------------------------------------------------------------------
+
 Notes
+
+The CIFAR-10 dataset is not included due to GitHub file size limits. Download it from https://www.cs.toronto.edu/~kriz/cifar.html
+ if you want to retrain the model.
+
+The project is ready to deploy and extend for additional ML applications.
 
 PyTorch may show a TypedStorage deprecation warning — this is harmless.
 
