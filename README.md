@@ -32,7 +32,27 @@ Open your browser and go to:
 
 Click POST /predict
 
-Upload an image (e.g., test_image.jpg)
+Upload an image (e.g., test_image.jpg) *image must match one of the CIFAR-10 classes below:
+
+1) airplane
+
+2) automobile
+
+3) bird
+
+4) cat
+
+5) deer
+
+6) dog
+
+7) frog
+
+8) horse
+
+9) ship
+
+10) truck
 
 Click Execute to see the predicted class.
 
