@@ -4,13 +4,13 @@ This project is a dockerized FastAPI service that classifies images into CIFAR-1
 
 Within this README:
 
-FEATURES
-TECH STACK
-REQUIREMENTS
-BUILD AND RUN WITH DOCKER
-TESTING THE API
-KEY LEARNINGS AND SKILLS DEMONSTRATED
-NOTES
+FEATURES ||
+ TECH STACK ||
+ REQUIREMENTS ||
+ BUILD AND RUN WITH DOCKER ||
+ TESTING THE API ||
+ KEY LEARNINGS AND SKILLS DEMONSTRATED || 
+ NOTES ||
 
 -------------------------------------------------------------------------------
 
