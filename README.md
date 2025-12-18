@@ -14,7 +14,7 @@ FEATURES ||
 
 -------------------------------------------------------------------------------
 
-Features
+FEATURES
 
 Pre-trained CIFAR-10 image classifier using PyTorch.
 
@@ -28,7 +28,7 @@ Ready for extension or integration into larger ML systems.
 
 -------------------------------------------------------------------------------
 
-Tech Stack
+TECH STACK
 
 Programming Language: Python 3.10/3.11
 
@@ -38,14 +38,14 @@ Tools: Docker, Linux containerization
 
 -------------------------------------------------------------------------------
 
-Requirements
+REQUIREMENTS
 
 1) Docker Desktop
 2) Optional: Python 3.10+ (for local testing outside Docker)
 
 -------------------------------------------------------------------------------
 
-Build and Run with Docker:
+BUILD AND RUN WITH DOCKER:
 
 1) Open a terminal in the project root directory.
 
@@ -60,7 +60,7 @@ Open your browser and go to:
 
 -------------------------------------------------------------------------------
 
-*Testing the API*
+TESTING THE API
 
 1. Using Swagger UI
 
@@ -92,7 +92,7 @@ Click Execute to see the predicted class.
 
 -------------------------------------------------------------------------------
 
-Key Learnings & Skills Demonstrated
+KEY LEARNINGS AND SKILLS DEMONSTRATED
 
 Packaging ML models into production-ready APIs with FastAPI.
 
@@ -106,7 +106,7 @@ API design & testing: Accepting file uploads and returning structured prediction
 
 -------------------------------------------------------------------------------
 
-Notes
+NOTES
 
 The CIFAR-10 dataset is not included due to GitHub file size limits. Download it from https://www.cs.toronto.edu/~kriz/cifar.html
  if you want to retrain the model.
